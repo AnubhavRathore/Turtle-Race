@@ -20,11 +20,6 @@ while game_is_on:
         car_manager.cross()
         scoreboard.score()
 
-    """My own method if turtle crosses finish line"""
-    # if player.ycor() >= 280:
-    #     player.restart()
-    #     car_manager.cross()
-    #     scoreboard.score()
     for car in car_manager.all_cars:
         if car.distance(player) < 20:
             scoreboard.game_over()
