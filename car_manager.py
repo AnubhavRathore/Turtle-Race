@@ -30,8 +30,3 @@ class CarManager:
 
     def cross(self):
         self.car_speed += MOVE_INCREMENT
-
-        """My own method to increse car speed"""
-        # global STARTING_MOVE_DISTANCE
-        # STARTING_MOVE_DISTANCE += MOVE_INCREMENT
-
